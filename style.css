@@ -36,10 +36,7 @@ header, article, footer{
   text-align: center;
   border: none;
   border-radius: 5px;
-
-  -webkit-background-color: hsl(224, 93%, 58%);
-  -webkit-border: none;
-  -webkit-padding: .7rem 0;
+  -webkit-appearance: none;
 }
 
 .btn:hover{
