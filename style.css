@@ -1,0 +1,506 @@
+/* Core & General Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100vw;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul{
+  list-style: none;
+}
+
+header, article, footer{
+  padding: 0 1rem;
+}
+
+.btn{
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  font-weight: 400;
+  padding: .7rem 0;
+  width: 90%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: hsl(224, 87%, 64%);
+}
+
+/* Navbar Styling */
+nav{
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+nav img{
+  width: 90px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a{
+  color: hsl(243, 87%, 12%);
+  padding: .3rem;
+}
+
+/* Header Styling */
+header{
+  background: url('/images/bg-curve-mobile.svg') no-repeat bottom center/contain ;
+}
+
+header img{
+  margin-bottom: 2rem;
+}
+
+header .text-section h1{
+  text-align: center;
+  color:hsl(243, 87%, 12%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+header .text-section p{
+  text-align: center;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 2rem;
+}
+
+header .text-section .form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+header .text-section .form input{
+  display: block;
+  padding: 1rem 1.5rem;
+  border: 1px solid hsl(238, 22%, 44%);
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+::placeholder{
+  color: hsl(0, 0%, 75%);
+}
+
+/* Article Styling */
+  
+  /* Article 1 */
+  .art-1{
+    background-color: hsla(240, 80%, 98%, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-1 > img{
+    margin: 3rem 0;
+  }
+
+  .art-1 .text-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-1 .text-section h2{
+    color: hsl(243, 87%, 12%);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .art-1 .text-section > p{
+    color: hsl(238, 22%, 44%);
+    margin-bottom: 1rem;
+  }
+
+  .art-1 .text-section a{
+    margin: 1rem 0;
+    padding: .3rem 0;
+    border-bottom: hsl(224, 93%, 58%) 1px solid;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: hsl(224, 93%, 58%);
+  }
+
+  .art-1 .text-section a:hover{
+    color: hsl(224, 90%, 69%);
+    border-color: hsl(224, 90%, 69%);
+  }
+
+  .art-1 .text-section a span{
+    margin-right: .5rem;
+  }
+
+  .art-1 .text-section .card{
+    width: 80%;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px hsla(243, 87%, 12%, 0.1);
+    padding: 1rem;
+  }
+
+  .art-1 .text-section .card > p{
+    font-size: .7rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .art-1 .text-section .card .profile{
+    display: flex;
+  }
+
+  .art-1 .text-section .card .profile img{
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+    border-radius: 50%;
+  }
+
+  .art-1 .text-section .card .profile h3{
+    font-size: .7rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .art-1 .text-section .card .profile p{
+    font-size: .5rem;
+  }
+
+  /* Article 2 */
+  .art-2{
+    padding: 3rem 1rem;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-2 h3{
+    margin-bottom: 1.5rem;
+  }
+
+  .art-2 p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .art-2 .form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .art-2 .form input{
+    display: block;
+    padding: .75rem .75rem;
+    border: 1px solid hsl(238, 22%, 44%);
+    border-radius: 5px;
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+
+  .art-2 .form .btn{
+    width: 75%;
+  }
+
+/* Footer Styling */
+footer{
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(0, 0%, 75%);
+  padding: 3rem 1rem;
+}
+
+footer > img{
+  margin: 1rem 0;
+}
+
+footer .contact{
+  margin: 2rem 0;
+}
+
+footer .contact li{
+  align-items: center;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+footer .contact li img{
+  margin-right: 1rem;
+  width: 23px;
+  height: 20px;
+}
+
+footer .contact li p{
+  font-size: 1.2rem;
+}
+
+footer .info-1,
+footer .info-2{
+  margin: 2rem 0;
+}
+
+footer .info-1 li a,
+footer .info-2 li a{
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  color: hsl(0, 0%, 75%);
+}
+
+footer .info-1 li a:hover,
+footer .info-2 li a:hover{
+  color: hsl(224, 93%, 58%);
+}
+
+footer .social{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social li a{
+  color: hsl(0, 0%, 75%);
+  display: grid;
+  place-items: center;
+  border: 1px hsl(0, 0%, 75%) solid;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 0 .5rem; 
+}
+
+footer .social li a:hover{
+  color: hsl(224, 93%, 58%);
+  border-color: hsl(224, 93%, 58%);
+}
+
+footer .social li a i{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 320px){
+  nav{
+    flex-direction: column;
+  }
+
+  nav ul{
+    margin-top: 1rem;
+  }
+}
+
+@media(min-width: 1000px){
+  nav ul li a{
+    padding: .5rem 1.5rem;
+  }
+
+  nav{
+    padding: 2rem 3rem;
+  }
+
+  nav img{
+    width: 120px;
+  }
+
+  header{
+    padding-bottom: 15rem;
+    display: grid;
+    place-content: center;
+  }
+
+  header .container{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  header .text-section{
+    display: grid;
+    place-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  header .text-section h1,
+  header .text-section p{
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  header img{
+    grid-column: 2;
+    width: 100%;
+  }
+
+  header .form{
+    flex-direction: row !important;
+    padding: 0 !important;
+    justify-content: space-between;
+  }
+
+  header .form input{
+    margin: 0 !important;
+    padding: .8rem !important;
+    width: 58% !important;
+    display: inline-block;
+  }
+
+  header .form .btn{
+    display: inline-block;
+    width: 38% !important;
+    font-size: .8rem;
+  }
+
+  .art-1{
+    display: grid;
+    place-content: center;
+  }
+
+  .art-1 .container{
+    margin-bottom: 3rem;
+    gap: 2rem;
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .art-1 img{
+    grid-column: 2;
+  }
+
+  .art-1 .text-section{
+    grid-column: 1;
+    align-items: flex-start;
+    grid-row: 1;
+  }
+
+  .art-1 .text-section h2{
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: .5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .art-1 .text-section p{
+    font-size: .9rem;
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+
+  .art-1 .text-section a{
+    align-self: left;
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+
+  .art-1 .text-section .card{
+    margin: .5rem 0;
+  }
+
+  .art-2{
+    display: grid;
+    place-content: center;
+  }
+
+  .art-2 .container{
+    display: grid;
+    gap: 1rem;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .art-2 h3{
+    margin-bottom: 0;
+  }
+
+  .art-2 p{
+    text-align: left;
+    margin-bottom: 0;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .art-2 .form{
+    align-items: flex-start;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .art-2 .form .btn{
+    width: 40%;
+    font-size: .8rem;
+  }
+
+  footer{
+    display: grid;
+    place-content: center;
+  }
+
+  footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2fr;
+    gap: 1rem;
+  }
+
+  .contact{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .info-1{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .info-2{
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .social{
+    align-items: flex-start !important;
+    grid-column: 4;
+    grid-row: 2;
+  }
+
+  footer ul{
+    margin: 0 !important;
+  }
+}
